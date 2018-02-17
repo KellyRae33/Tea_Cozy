@@ -44,6 +44,8 @@ header{
 .title{
   height: auto;
   width: 100%;
+}
+.title h2, .title h4{
   padding: 15px 0px;
 }
 /*Mission*/
@@ -62,19 +64,25 @@ header{
   margin: 0;
 }
 /*Tea of the Month*/
-.teas{
+.tea_of_the_month{
   width: 1000px;
-  height: auto;
+  margin-top:40px;
+}
+.teas{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .pictures{
-  padding: 0px 10px;
+  margin: 0px 0px 20px 0px;
 }
 .pictures img{
   height: 200px;
   width: 300px;
+  padding: 0px 10px 10px 10px;
+}
+.pictures h4{
+  margin: 0;
 }
 /*Locations*/
 .locations{
@@ -84,9 +92,13 @@ header{
   background-image: url(../images/locations.jpg);
   height: 500px;
   width: 1200px;
+  margin-top: 40px;
 }
 .locations h2{
   margin: 0;
+}
+.locations h4{
+  font-weight: normal;
 }
 .places{
   display: flex;
@@ -97,6 +109,10 @@ header{
   background-color: black;
   width: 300px;
   margin: 0 20px;
+}
+/*Contact*/
+.contact{
+  margin-top: 40px;
 }
 /*Footer*/
 footer{
