@@ -3,7 +3,8 @@ body{
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: gray;
+  background-color: black;
+  text-align: center;
   opacity: 0.9;
   margin: 0;
   padding: 0;
@@ -17,10 +18,13 @@ header{
   align-items: center;
   height: 69px;
   width: 100%;
+  background-color: black;
 }
 .logo{
   padding-left: 10px;
   flex-grow: 1;
+  height: 50px;
+  text-align: left;
 }
 .logo img{
   height: 50px;
@@ -34,24 +38,30 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+
   padding-top: 69px;
 }
 .title{
-  background-color: black;
   height: auto;
+  width: 100%;
+  padding: 15px 0px;
 }
 /*Mission*/
 .mission{
-  background-image: url("../images/background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/background.jpg);
   height: 700px;
   width: 1200px;
 }
-
-/*Tea of the Month*/
-.tea_of_the_month{
-
+.mission .title{
+  background-color: black;
 }
+.title h2, .title h4{
+  margin: 0;
+}
+/*Tea of the Month*/
 .teas{
   width: 1000px;
   height: auto;
@@ -66,6 +76,30 @@ header{
   height: 200px;
   width: 300px;
 }
-
 /*Locations*/
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/locations.jpg);
+  height: 500px;
+  width: 1200px;
+}
+.locations h2{
+  margin: 0;
+}
+.places{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.address{
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+}
 /*Footer*/
+footer{
+  text-align: left;
+  margin-left: 20px;
+}
