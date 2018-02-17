@@ -107,12 +107,13 @@ header{
 }
 .address{
   background-color: black;
+  opacity: 1;
   width: 300px;
   margin: 0 20px;
 }
 /*Contact*/
 .contact{
-  margin-top: 40px;
+  height: 200px;
 }
 /*Footer*/
 footer{
