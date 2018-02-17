@@ -3,7 +3,7 @@ body{
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
+  background-color: gray;
   opacity: 0.9;
   margin: 0;
   padding: 0;
@@ -41,11 +41,31 @@ header{
   background-color: black;
   height: auto;
 }
+/*Mission*/
 .mission{
   background-image: url("../images/background.jpg");
   height: 700px;
   width: 1200px;
 }
 
+/*Tea of the Month*/
+.tea_of_the_month{
 
+}
+.teas{
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pictures{
+  padding: 0px 10px;
+}
+.pictures img{
+  height: 200px;
+  width: 300px;
+}
+
+/*Locations*/
 /*Footer*/
